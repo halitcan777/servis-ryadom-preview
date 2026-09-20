@@ -21,7 +21,7 @@
   })(document.documentElement);
 </script>
 <link href="img/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/><meta content="#f5f4f1" name="theme-color"/><link href="site.css" rel="stylesheet"/>
-<link href="layout.css" rel="stylesheet"/><link href="hero3d/hero.css" rel="stylesheet"/></head>
+<link href="layout.css" rel="stylesheet"/><link href="hero-photo.css" rel="stylesheet"/></head>
 <body><a class="skip" href="#main">Перейти к содержимому</a>
 <header class="top">
 <div class="wrap top__in">
@@ -57,10 +57,9 @@
 <a class="btn btn--quiet btn--lg" href="https://wa.me/79917464464">WhatsApp</a>
 </div>
 </div>
-<figure class="hero__media hero3d" data-hero3d="coffee" aria-label="3D-анимация: Кофемашина">
-<div class="hero3d__top"><span data-scene="model-name">Кофемашина / устройство</span><button data-scene="pause" type="button" aria-label="Приостановить анимацию" aria-pressed="false" hidden>Ⅱ</button></div>
-<div class="hero3d__stage" data-scene="stage"><div class="hero3d__fallback" data-scene="fallback"><img src="hero3d/coffee-poster.webp" alt="Кофемашина с раскрытым корпусом" width="794" height="475" fetchpriority="high" decoding="async"/></div></div>
-<figcaption class="hero3d__bottom"><span data-scene="phase">Внутренние узлы</span><span class="hero3d__dots" aria-hidden="true"><i></i><i></i><i></i></span></figcaption>
+<figure class="hero__media hero-photo">
+<!-- Сгенерированный тематический кадр; не фотография мастерской клиента. -->
+<img src="img/hero-coffee-20260920-1536.webp" srcset="img/hero-coffee-20260920-768.webp 768w, img/hero-coffee-20260920-1536.webp 1536w" sizes="(max-width: 960px) 94vw, 56vw" width="1536" height="1024" alt="Кофемашина со снятой боковой панелью: бойлер, трубки и насос" fetchpriority="high" decoding="async"/>
 </figure>
 </div>
 <div class="wrap hero__facts"><dl class="facts">
@@ -136,7 +135,8 @@
 </div>
 </section>
 <!-- ─────────────── 03 · как проходит ремонт ─────────────── -->
-<section class="sect" id="kak-rabotaem">
+<section class="sect process-visual" id="kak-rabotaem">
+<img class="process-visual__image" src="img/process-background-20260920.webp" alt="" aria-hidden="true" width="1536" height="1024" loading="lazy" decoding="async"/>
 <div class="wrap">
 <header class="sect__head" data-reveal=""><p class="sect__index"><span>03</span>Как работаем</p><div class="sect__title"><h2>Как проходит ремонт</h2></div></header>
 <ol class="steps" data-reveal="">
@@ -259,6 +259,6 @@
 }
 </script>
 <script defer="" src="site.js"></script>
-<script type="module" src="hero3d/scene.js"></script>
+
 </body>
 </html>
